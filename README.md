@@ -1,11 +1,13 @@
-# BigDataAssignment4part2
-
-# 🧠 NVIDIA RAG Pipeline – Spring 2025
+# 🧠 RAG Pipeline
 
 An end-to-end **Retrieval-Augmented Generation (RAG)** system that automates the ingestion, processing, and retrieval of **NVIDIA quarterly reports** using **Apache Airflow**, multiple **PDF parsers**, vector databases (**Pinecone**, **ChromaDB**), and a user-friendly **Streamlit + FastAPI interface**.
 
 ---
+## 🧠 LLM-Powered RAG Pipeline Architecture
 
+![RAG Pipeline Architecture](llm-powered_rag_pipeline.png)
+
+---
 ## 🚀 Project Summary
 
 We built an AI-powered pipeline that:
@@ -118,7 +120,6 @@ The system supports hybrid retrieval by allowing the user to query only specific
 
 ## 📘 Resources
 
-- https://investor.nvidia.com/financial-info/quarterly-results/
 - Docling GitHub
 - Mistral OCR
 - Pinecone Docs
@@ -134,5 +135,3 @@ The system supports hybrid retrieval by allowing the user to query only specific
 - Preload and index PDFs in Pinecone/ChromaDB for optimized performance.
 
 ---
-
-
